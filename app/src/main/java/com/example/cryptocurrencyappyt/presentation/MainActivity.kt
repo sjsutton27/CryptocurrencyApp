@@ -18,9 +18,7 @@ import com.example.cryptocurrencyappyt.presentation.coin_list.CoinListScreen
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavType
 import androidx.navigation.navArgument
-import com.example.cryptocurrencyappyt.CoinApplication
 import com.example.cryptocurrencyappyt.CoinApplication.Companion.appModule
-import com.example.cryptocurrencyappyt.domain.repository.CoinRepository
 import com.example.cryptocurrencyappyt.domain.use_case.get_coin.GetCoinUseCase
 
 

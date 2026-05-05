@@ -5,7 +5,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.cryptocurrencyappyt.common.Resource
-import com.example.cryptocurrencyappyt.domain.repository.CoinRepository
 import com.example.cryptocurrencyappyt.domain.use_case.get_coins.GetCoinsUseCase
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

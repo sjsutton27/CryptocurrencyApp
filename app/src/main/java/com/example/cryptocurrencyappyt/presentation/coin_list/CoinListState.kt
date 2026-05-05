@@ -1,6 +1,5 @@
 package com.example.cryptocurrencyappyt.presentation.coin_list
 
-import com.example.cryptocurrencyappyt.common.Resource
 import com.example.cryptocurrencyappyt.domain.model.Coin
 
 data class CoinListState(

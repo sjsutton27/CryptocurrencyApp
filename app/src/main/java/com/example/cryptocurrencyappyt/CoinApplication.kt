@@ -7,16 +7,6 @@ import com.example.cryptocurrencyappyt.di.AppModuleImpl
 import timber.log.Timber
 
 class CoinApplication : Application(){
-//    override fun onCreate() {
-//        super.onCreate()
-//
-//        startKoin {
-//            androidContext(this@CoinApplication)
-//            modules(appModule)
-//        }
-//
-//        Timber.plant(Timber.DebugTree())
-//    }
 
     companion object{
         lateinit var appModule: AppModule

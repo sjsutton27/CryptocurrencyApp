@@ -14,7 +14,6 @@ class CoinRepositoryImpl(
     }
 
     override suspend fun getCoinById(coinId: String): CoinDetailDto {
-        Log.d("CoinRepositoryImpl", "Fetching details for coinId: $coinId")
         return api.getCoinById(coinId)
     }
 }

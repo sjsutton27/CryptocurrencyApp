@@ -12,12 +12,9 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 
 import androidx.compose.ui.Modifier
-import androidx.navigation.NavController
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import com.example.cryptocurrencyappyt.presentation.Screen
-import com.example.cryptocurrencyappyt.presentation.coin_list.components.CoinListItem
 import androidx.compose.material3.Text
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.text.style.TextAlign
@@ -29,7 +26,6 @@ import androidx.compose.material3.HorizontalDivider
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
-import com.example.cryptocurrencyappyt.data.remote.dto.TeamMember
 import com.example.cryptocurrencyappyt.presentation.coin_detail.components.CoinTag
 import com.example.cryptocurrencyappyt.presentation.coin_detail.components.TeamListItem
 
