@@ -55,7 +55,6 @@ class MainActivity : ComponentActivity() {
                             arguments = listOf(navArgument("coinId") { type = NavType.StringType })
                         ) { backStackEntry ->
                             val coinId = backStackEntry.arguments?.getString("coinId")
-                            Log.d("NAVGRAPH", "coinId from backStackEntry: $coinId")
                             val viewDetailModel: CoinDetailViewModel = viewModel(
                                 factory = viewModelFactory {
                                     CoinDetailViewModel(
@@ -64,12 +63,8 @@ class MainActivity : ComponentActivity() {
                                     )
                                 }
                             )
-
-                            CoinDetailScreen(viewModel = viewDetailModel)
+                            CoinDetailScreen(viewModel = viewDetailModel, navController = navController)
                         }
-
-
-
                     }
                 }
             }

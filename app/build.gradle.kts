@@ -88,7 +88,7 @@ dependencies {
 
     // Palette
     implementation(libs.androidx.palette)
-
+    implementation(libs.androidx.material.icons.extended)
     //Compose Dependency
     //implementation("com.google.accompanist:accompanist-flowlayout:0.34.0")
 
