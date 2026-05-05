@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.cryptocurrencyappyt.presentation.coin_list.CoinListViewModel
 import com.example.cryptocurrencyappyt.presentation.ui.theme.CryptocurrencyAppYTTheme
 import com.example.cryptocurrencyappyt.domain.use_case.get_coins.GetCoinsUseCase
@@ -25,10 +26,8 @@ import com.example.cryptocurrencyappyt.domain.use_case.get_coin.GetCoinUseCase
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+        installSplashScreen()
         val coinRepository = appModule.coinRepository
-
-
         setContent {
             CryptocurrencyAppYTTheme {
                 val viewListModel = viewModel<CoinListViewModel>(

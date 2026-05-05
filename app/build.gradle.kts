@@ -91,5 +91,6 @@ dependencies {
     implementation(libs.androidx.material.icons.extended)
     //Compose Dependency
     //implementation("com.google.accompanist:accompanist-flowlayout:0.34.0")
+    implementation(libs.androidx.core.splashscreen)
 
 }
